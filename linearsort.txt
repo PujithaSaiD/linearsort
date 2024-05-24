@@ -1,0 +1,9 @@
+l=[4,7,2,9,3,6,4]
+l1=set(l)
+for i in range(len(l1)):
+  target_value=3
+  if target_value==l[i]:
+    print("value is traced at index:",i)
+    break
+else:
+  print("value cannot be traced")
